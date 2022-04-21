@@ -26,7 +26,8 @@
   <a href = "mailto:thallis.ferreira2019@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/thallis-henrique-ferreira-80b6461b5" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
  
-  ![Snake animation](https://github.com/THenriqueh)
+ ![Snake animation](https://github.com/THenriqueh/THenriqueh/blob/output/github-contribution-grid-snake.svg)
+ 
  
  
 </div>
