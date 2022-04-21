@@ -7,26 +7,25 @@
 
 <div align="center">
   <a href="https://github.com/THenriqueh">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=THenriqueh&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=THenriqueh&layout=compact&langs_count=7&theme=dracula"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=THenriqueh&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=THenriqueh&layout=compact&langs_count=7&theme=dracula"/>
 </div>
-  
-  <p align="center">__________________________</p>
-  <div align="center"> 
-    
-  <div style="display: inline_block"><br>
+<div align="center" >
+  <div style="display: inline_block">
   <img align="center" alt="Thallis-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Thallis-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Thallis-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Thallis-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="Thallis-Selenium" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"/>
-    
-          
+     <img align="right" alt="Thallis-pic" height="100" style="border-radius:60px;" src="https://i.pinimg.com/originals/2b/9b/36/2b9b36e5489ba85c4ab84cfc3f242af2.gif">   </div>     
 </div>
-  
-  ##
-  Entre em contato:
-  
-<div> 
+  <p align="center">__________________________</p>
+   
+  <div align="center"> 
+    Entre em contato:
+      
+  <div/>
+ 
+<div align="center"> 
   <a href = "mailto:thallis.ferreira2019@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/thallis-henrique-ferreira-80b6461b5" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
  
