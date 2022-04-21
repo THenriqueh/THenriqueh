@@ -16,7 +16,7 @@
   <img align="center" alt="Thallis-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Thallis-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="Thallis-Selenium" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"/>
-     <img align="right" alt="Thallis-pic" height="100" style="border-radius:60px;" src="https://i.pinimg.com/originals/2b/9b/36/2b9b36e5489ba85c4ab84cfc3f242af2.gif">   </div>     
+       </div>     
 </div>
   <p align="center">__________________________</p>
    
