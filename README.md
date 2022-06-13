@@ -1,9 +1,8 @@
 ##### Opa, tudo bem? eu sou o Thallis e te convido a conhecer um pouco sobre mim.
 
-- 📈 Atualmente trabalhando com contabilidade
 - 🔁 Em transição de carreira
 - 📚 Estudando para me tornar um desenvolvedor fullstack
-- 🔎 Procurando uma oportunidade na área de tecnologia
+- 🔎 Procurando uma oportunidade de trabalho.
 
 <div align="center">
   <a href="https://github.com/THenriqueh">
