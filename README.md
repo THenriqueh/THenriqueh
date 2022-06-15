@@ -1,8 +1,10 @@
 ##### Opa, tudo bem? eu sou o Thallis e te convido a conhecer um pouco sobre mim.
-
-- 🔁 Em transição de carreira
-- 📚 Estudando para me tornar um desenvolvedor fullstack
-- 🔎 Procurando uma oportunidade de trabalho.
+- 👋 Hi, I’m Thallis Ferreira
+- 🔁 I'm in career transition
+- 👀 I’m interested in Metaverse, Blockchain and IA.
+- 📚 I’m currently learning JAVA and Bootstrap.
+- 💞️ I’m looking to collaborate on future projects ...
+- 🔎 Looking for a job opportunity.
 
 <div align="center">
   <a href="https://github.com/THenriqueh">
