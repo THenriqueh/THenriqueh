@@ -1,7 +1,7 @@
 - 👋Hey, how are you? I'm Thallis and I invite you to know a little about me
 - 🔁 I'm in career transition
 - 👀 I’m interested in Metaverse, Blockchain and Web 3.0  
-- 📚 I’m currently learning JAVA and Bootstrap
+- 📚 I’m currently learning JAVA and Spring Boot
 - 💞️ I’m looking to collaborate on future projects
 - 🔎 Looking for a job opportunity.
 
