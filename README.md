@@ -1,4 +1,4 @@
-#####- 👋Hey, how are you? I'm Thallis and I invite you to know a little about me👋
+#####- 👋Hey, how are you? I'm Thallis and I invite you to know a little about me
 #####- 🔁 I'm in career transition;
 #####- 👀 I’m interested in Metaverse, Blockchain and IA;
 #####- 📚 I’m currently learning JAVA and Bootstrap;
