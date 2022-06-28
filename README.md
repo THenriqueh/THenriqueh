@@ -22,7 +22,7 @@
   <p align="center">__________________________</p>
    
   <div align="center"> 
-    Entre em contato:
+    Contact:
       
   <div/>
  
