@@ -19,7 +19,7 @@
  
  </div>     
 </div>
-  <p align="center">___________________________</p>
+  <p align="center">__________________________</p>
    
   <div align="center"> 
     Contact:
