@@ -1,7 +1,6 @@
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=👋Hey,+how+are+you?;I'm+Thallis+and+I+invite+you+to+know+a+little+about+me)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=👋Hey,+how+are+you?;I'm+Thallis+and+I'm+come+to+know+a+little+about+me)](https://git.io/typing-svg)
 
-- 👋Hey, how are you? I'm Thallis and I invite you to know a little about me
 - 📊 Accounting Assistant
 - 🔁 I'm in career transition
 - 👀 I’m interested in Metaverse, Blockchain and Web 3.0  
