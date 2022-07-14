@@ -1,5 +1,5 @@
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=👋Hey!+I'm+Thallis;Come+to+know+a+little+about+me)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=👋Hey!+I'm+Thallis;Come+to+know+a+little+about+me!)](https://git.io/typing-svg)
 - 📊 Accounting Assistant
 - 🔁 I'm in career transition
 - 👀 I’m interested in Metaverse, Blockchain and Web 3.0  
