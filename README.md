@@ -3,7 +3,7 @@
 - 📊 Accounting Assistant
 - 🔁 I'm in career transition
 - 👀 I’m interested in Metaverse, Blockchain and Web 3.0  
-- 📚 I’m currently learning JAVA and Spring Boot
+- 📚 I’m currently learning Angular and Spring Boot
 - 💞️ I’m looking to collaborate on future projects
 - 🔎 Looking for a job opportunity.
 
