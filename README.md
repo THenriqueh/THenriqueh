@@ -1,11 +1,10 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=👋Hey!+I'm+Thallis.;Come+to+know+a+little+about+me!)](https://git.io/typing-svg)
-- 📊 Accounting Assistant
-- 🔁 I'm in career transition
+- :computer: Java developer Junior.
 - 👀 I’m interested in Metaverse, Blockchain and Web 3.0  
-- 📚 I’m currently learning Angular, AWS and Spring Boot
-- 💞️ I’m looking to collaborate on future projects
-- 🔎 Looking for a job opportunity.
+- 📚 I’m currently learning AWS and Spring Boot
+
+
 
 <div align="center">
   <a href="https://github.com/THenriqueh">
@@ -17,7 +16,7 @@
   <img align="center" alt="Thallis-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Thallis-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Thallis-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align= "center" alt="Thallis Angular" heiht="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg"/>
+
           
   
   <img align="center" alt="Thallis-Spring" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"/>
