@@ -2,7 +2,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=👋Hey!+I'm+Thallis.;Come+to+know+a+little+about+me!)](https://git.io/typing-svg)
 - :computer: Java developer Junior.
 - 👀 I’m interested in Metaverse, Blockchain and Web 3.0  
-- 📚 I’m currently learning AWS and Spring Boot
+- 📚 I’m currently learning Quarkus and Spring Boot
 
 
 
