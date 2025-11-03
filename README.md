@@ -1,7 +1,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=👋Hey!+I'm+Thallis.;Come+to+know+a+little+about+me!)](https://git.io/typing-svg)
 - :computer: Java developer.
-- 📚 I’m currently learning Azure, Devops Culture.
+- 📚 I’m currently Docker, Arquiteture and Devops Culture.
 
 
 
