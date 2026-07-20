@@ -59,12 +59,12 @@ I'm a software developer focused on **backend development with Java and Spring B
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/THenriqueh/THenriqueh/profile-summary-card-output/dracula/3-stats.svg" alt="GitHub Stats" />
+<img src="https://raw.githubusercontent.com/THenriqueh/THenriqueh/main/profile-summary-card-output/dracula/3-stats.svg" alt="GitHub Stats" />
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/THenriqueh/THenriqueh/profile-summary-card-output/dracula/1-repos-per-language.svg" alt="Repos per Language" />
-<img src="https://raw.githubusercontent.com/THenriqueh/THenriqueh/profile-summary-card-output/dracula/2-most-commit-language.svg" alt="Most Commit Language" />
+<img src="https://raw.githubusercontent.com/THenriqueh/THenriqueh/main/profile-summary-card-output/dracula/1-repos-per-language.svg" alt="Repos per Language" />
+<img src="https://raw.githubusercontent.com/THenriqueh/THenriqueh/main/profile-summary-card-output/dracula/2-most-commit-language.svg" alt="Most Commit Language" />
 
 <br/>
 
