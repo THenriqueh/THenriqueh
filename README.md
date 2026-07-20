@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=26&pause=1000&color=6C5CE7&center=true&vCenter=true&width=520&lines=Hi+there%2C+I'm+Thallis!+%F0%9F%91%8B;Java+%26+Spring+Boot+Developer;Backend+%7C+Docker+%7C+DevOps+Culture" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=26&pause=1000&color=6C5CE7&center=true&vCenter=true&width=520&lines=Hi+there%2C+I'm+Thallis!+%F0%9F%91%8B;Java+%26+Spring+Boot+Developer;Backend+%7C+Docker+%7C+DevOps+Culture" alt="Typing SVG" />
 </a>
 
 ### Software Developer · Backend enthusiast · Based in Recife — PE 🇧🇷
@@ -64,7 +64,7 @@ I'm a software developer focused on **backend development with Java and Spring B
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=THenriqueh&theme=dracula&hide_border=false" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=THenriqueh&theme=dracula&hide_border=false" alt="GitHub Streak" />
 
 </div>
 
