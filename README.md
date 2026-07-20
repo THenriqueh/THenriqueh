@@ -59,8 +59,12 @@ I'm a software developer focused on **backend development with Java and Spring B
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=THenriqueh&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=THenriqueh&layout=compact&langs_count=7&theme=dracula" alt="Top Languages" />
+<img src="https://raw.githubusercontent.com/THenriqueh/THenriqueh/profile-summary-card-output/dracula/3-stats.svg" alt="GitHub Stats" />
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/THenriqueh/THenriqueh/profile-summary-card-output/dracula/1-repos-per-language.svg" alt="Repos per Language" />
+<img src="https://raw.githubusercontent.com/THenriqueh/THenriqueh/profile-summary-card-output/dracula/2-most-commit-language.svg" alt="Most Commit Language" />
 
 <br/>
 
