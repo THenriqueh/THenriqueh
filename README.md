@@ -26,23 +26,32 @@ and I care about understanding *why* an architectural decision is made, not just
 #### 💳 [payments](https://github.com/THenriqueh/pagamentos) — asynchronous payment processing, PIX-style
 
 A reference implementation of how I'd design an instant-payment backend: idempotent, event-driven,
-observable, and built so the domain doesn't depend on any framework.
+and built so the domain doesn't depend on any framework.
 
 ```mermaid
 flowchart LR
     C[Client] -->|POST /pagamentos| API[REST adapter]
     API --> UC[Use case<br/>domain core]
     UC -->|publish| K[(Kafka<br/>pagamentos.solicitados)]
-    K --> P[Processor]
+    K --> P[Consumer<br/>idempotent + retries]
     P --> DB[(PostgreSQL<br/>write model)]
-    P -->|events| Q[(MongoDB<br/>read model)]
+    P -.->|events · planned| Q[(MongoDB<br/>read model)]
 ```
 
-**Design decisions documented in the repo:** hexagonal architecture (ports & adapters) · CQRS with separate
-read/write models · idempotency keys · retries and circuit breakers with Resilience4j ·
-partitioning strategy for ordering guarantees · observability with Prometheus, Grafana and ELK.
+**Implemented**
+- **Hexagonal architecture** — domain core with no framework dependencies; REST and Kafka live in adapters behind ports
+- **Asynchronous flow** — the API accepts the payment request and publishes it to Kafka; processing happens in a separate consumer
+- **Idempotency** — duplicate requests and redelivered messages don't produce duplicate payments
+- **Retries** — failed processing is retried instead of losing the message
+- **Partitioning** — `pagamentos.solicitados` with 3 partitions, keyed to preserve ordering per payment
 
-**Stack:** Java 21 · Spring Boot · Kafka (KRaft) · PostgreSQL · MongoDB · Docker · AWS (ECS, RDS)
+**Next**
+- **CQRS** — MongoDB read model fed by domain events, separate from the PostgreSQL write model
+- **Resilience** — circuit breakers with Resilience4j
+- **Observability** — metrics and dashboards with Prometheus and Grafana, centralized logs with ELK
+- **Cloud** — deployment on AWS (ECS, RDS)
+
+**Stack:** Java 21 · Spring Boot · Kafka (KRaft) · PostgreSQL · Docker · *(planned: MongoDB, Resilience4j, AWS)*
 
 **Status:** 🚧 in active development
 
