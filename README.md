@@ -48,9 +48,9 @@ partitioning strategy for ordering guarantees · observability with Prometheus, 
 
 - [x] Local infrastructure with Docker Compose (Kafka KRaft, PostgreSQL, Kafka UI)
 - [x] Topic design — `pagamentos.solicitados`, 3 partitions
-- [ ] Domain model and hexagonal package structure
-- [ ] Payment use cases + REST adapter
-- [ ] Kafka consumer, idempotency and retries
+- [x] Domain model and hexagonal package structure
+- [x] Payment use cases + REST adapter
+- [x] Kafka consumer, idempotency and retries
 - [ ] CQRS read model
 - [ ] Observability stack
 - [ ] AWS deployment
