@@ -23,7 +23,7 @@ and I care about understanding *why* an architectural decision is made, not just
 
 ### Featured project
 
-#### 💳 [payments](https://github.com/THenriqueh/pagamentos) — asynchronous payment processing, PIX-style
+#### 💳 [payments](https://github.com/THenriqueh/async-payment-system) — asynchronous payment processing, PIX-style
 
 A reference implementation of how I'd design an instant-payment backend: idempotent, event-driven,
 and built so the domain doesn't depend on any framework.
