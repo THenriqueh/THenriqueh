@@ -1,4 +1,4 @@
- # Thallis Ferreira
+# Thallis Ferreira
 
 **Backend Engineer — Java · Spring Boot · Event-Driven Architecture**
 Building backend systems for the financial sector · Recife, Brazil
@@ -9,13 +9,7 @@ Building backend systems for the financial sector · Recife, Brazil
 
 ### About
 
-Backend engineer at **Accenture**, with 4 years building services for banks and large enterprises
-(previously at **NTT DATA**, working with Bradesco, Banco PAN and AB InBev).
-My work sits where reliability matters most: payment flows, credit products, customer notifications and
-system integrations that can't afford to lose a message.
-
-I focus on **hexagonal architecture**, **asynchronous messaging** and **systems that are easy to change**,
-and I care about understanding *why* an architectural decision is made, not just how to implement it.
+Backend engineer at **Accenture**, 4 years building services for banks and large enterprises (before that at **NTT DATA**: Bradesco, Banco PAN, AB InBev). I work mostly on payment flows, credit products and system integrations, with Java, Spring Boot and Kafka. Lately I've been going deeper into hexagonal architecture, event-driven design and distributed systems.
 
 → Full experience on [LinkedIn](https://www.linkedin.com/in/thallis-ferreira-dev-java/).
 
@@ -25,20 +19,19 @@ and I care about understanding *why* an architectural decision is made, not just
 
 #### 💳 [async-payment-system](https://github.com/THenriqueh/async-payment-system) — asynchronous payment processing, PIX-style
 
-A reference implementation of how I'd design an instant-payment backend: idempotent, event-driven,
-resilient under failure, and built so the domain doesn't depend on any framework.
+A PIX-style instant-payment backend: async, event-driven, idempotent, and resilient when the authorizer goes down.
 
 ```mermaid
 flowchart TB
-    C[Client] -->|POST /payments · JWT| API[REST adapter]
-    API --> UC[Use case · domain core]
-    UC -->|one transaction| DB[(PostgreSQL<br/>payments + outbox)]
-    DB --> OB[Outbox publisher<br/>scheduled relay]
-    OB -->|publish| K[(Kafka<br/>payments.requested)]
-    K --> P[Consumer<br/>idempotent]
-    P -->|authorize · HTTP + circuit breaker| AUTH[Authorizer service]
-    P -->|AUTHORIZED → CAPTURED / FAILED| DB
-    P -.->|retries exhausted| DLQ[(Kafka · DLT)]
+    C["Client"] -->|"POST /payments · JWT"| API["REST adapter"]
+    API --> UC["Use case · domain core"]
+    UC -->|"one transaction"| DB[("PostgreSQL<br/>payments + outbox")]
+    DB --> OB["Outbox publisher<br/>scheduled relay"]
+    OB -->|"publish"| K[("Kafka<br/>payments.requested")]
+    K --> P["Consumer<br/>idempotent"]
+    P -->|"authorize · HTTP + circuit breaker"| AUTH["Authorizer service"]
+    P -->|"AUTHORIZED → CAPTURED / FAILED"| DB
+    P -.->|"retries exhausted"| DLQ[("Kafka · DLT")]
 ```
 
 **Implemented**
@@ -51,10 +44,10 @@ flowchart TB
 - **Dead letter queue** — processing that keeps failing is retried with backoff and routed to a DLT instead of being dropped
 - **JWT authentication** — stateless security with a custom filter; login issues a signed token, and every request is validated before it reaches a controller
 - **Partitioning** — `payments.requested` with 3 partitions, keyed by payment id to preserve per-payment ordering
+- **Automated tests** — unit tests for the domain and application layers (JUnit, Mockito), plus an integration test that boots Postgres and Kafka with Testcontainers
 
 **Next**
 - **CQRS** — MongoDB read model fed by domain events, separate from the PostgreSQL write model
-- **Automated tests** — unit and integration (Testcontainers)
 - **Observability** — metrics and dashboards with Prometheus and Grafana, centralized logs with ELK
 - **Cloud** — deployment on AWS (ECS, RDS)
 
@@ -69,8 +62,8 @@ flowchart TB
 - [x] Resilience — circuit breaker, retries and dead letter queue
 - [x] External authorization service (service-to-service HTTP)
 - [x] JWT authentication (stateless, custom filter)
+- [x] Automated tests (unit + integration with Testcontainers)
 - [ ] CQRS read model (MongoDB)
-- [ ] Automated tests
 - [ ] Observability stack
 - [ ] AWS deployment
 
